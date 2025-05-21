@@ -1,13 +1,13 @@
 <project>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.work7.futurepages</groupId>
+    <groupId>com.work7.futurepages</groupId>
     <artifactId>futurepages</artifactId>
     <version>4.0.4</version>
     <packaging>jar</packaging>
 
     <repositories>
         <repository>
-            <id>github</id>
+            <id>git_packages_futurepages</id>
             <name>GitHub Packages</name>
             <url>https://maven.pkg.github.com/luisedu-adf/4</url>
         </repository>
@@ -36,6 +36,11 @@
     </build>
 
     <dependencies>
+        <dependency>
+            <groupId>com.sun</groupId>
+            <artifactId>rt</artifactId>
+            <version>1.8.0_202</version>
+        </dependency>
         <dependency>
             <groupId>com.work7.futurepages</groupId>
             <artifactId>activation</artifactId>
@@ -366,11 +371,11 @@
             <artifactId>jersey-mvc</artifactId>
             <version>2.22.1</version>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>antlr</groupId>
             <artifactId>antlr</artifactId>
             <version>2.7.6</version>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>com.google.code.findbugs</groupId>
             <artifactId>jsr305</artifactId>
