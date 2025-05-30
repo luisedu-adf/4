@@ -45,7 +45,7 @@
     </build>
 
     <dependencies>
-        <!-- COMEÇA NOT FOUND -->
+        <!-- NOT FOUND BEGIN -->
         <dependency>
             <groupId>org.futurepages.deps</groupId>
             <artifactId>activation</artifactId>
@@ -146,9 +146,9 @@
             <artifactId>commons-fileupload</artifactId>
             <version>1.0-5.5.23</version>
         </dependency>
-        <!-- TERMINA NOT FOUND -->
+        <!-- NOT FOUND END -->
 
-        <!-- COMEÇA SOLTOS -->
+        <!-- ROOT BEGIN-->
         <dependency>
             <groupId>ant</groupId>
             <artifactId>ant</artifactId>
@@ -224,9 +224,9 @@
             <artifactId>yuicompressor</artifactId>
             <version>2.4.7</version>
         </dependency>
-        <!-- TERMINA SOLTOS -->
+        <!-- ROOT END -->
 
-        <!-- COMEÇA JEE -->
+        <!-- JEE BEGIN -->
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>tomcat-jsp-api</artifactId>
@@ -237,9 +237,9 @@
             <artifactId>tomcat-servlet-api</artifactId>
             <version>8.0.17</version>
         </dependency>
-        <!-- TERMINA JEE -->
+        <!-- JEE END -->
 
-        <!-- COMEÇA JASPER_REPORTS -->
+        <!-- JASPER_REPORTS BEGIN-->
         <dependency>
             <groupId>commons-beanutils</groupId>
             <artifactId>commons-beanutils</artifactId>
@@ -275,9 +275,9 @@
             <artifactId>xml-apis</artifactId>
             <version>1.3.02</version>
         </dependency>
-        <!-- TERMINA JASPER_REPORTS -->
+        <!-- JASPER_REPORTS END-->
 
-        <!-- COMEÇA JERSEY --> 
+        <!-- JERSEY BEGIN --> 
         <dependency>
             <groupId>org.glassfish.hk2.external</groupId>
             <artifactId>aopalliance-repackaged</artifactId>
@@ -373,9 +373,9 @@
             <artifactId>validation-api</artifactId>
             <version>1.1.0.Final</version>
         </dependency>
-        <!-- TERMINA JERSEY --> 
+        <!-- JERSEY END --> 
 
-        <!-- COMEÇA HIBERNATE-4-1-7-REQUIRED --> 
+        <!-- HIBERNATE-4-1-7-REQUIRED BEGIN --> 
         <dependency>
             <groupId>antlr</groupId>
             <artifactId>antlr</artifactId>
@@ -411,9 +411,9 @@
             <artifactId>jboss-transaction-api_1.1_spec</artifactId>
             <version>1.0.0.Final</version>
         </dependency>
-        <!-- TERMINA HIBERNATE-4-1-7-REQUIRED --> 
+        <!-- HIBERNATE-4-1-7-REQUIRED END --> 
 
-        <!-- COMEÇA OKHTTP --> 
+        <!-- OKHTTP BEGIN --> 
         <dependency>
             <groupId>com.squareup.okhttp3</groupId>
             <artifactId>okhttp</artifactId>
@@ -424,9 +424,9 @@
             <artifactId>okio</artifactId>
             <version>1.13.0</version>
         </dependency>
-        <!-- TERMINA OKHTTP --> 
+        <!-- OKHTTP END --> 
 
-        <!-- COMEÇA PDFBOX-LIB --> 
+        <!-- PDFBOX-LIB BEGIN --> 
         <dependency>
             <groupId>org.apache.pdfbox</groupId>
             <artifactId>fontbox</artifactId>
@@ -437,9 +437,9 @@
             <artifactId>lucene-core</artifactId>
             <version>2.0.0</version>
         </dependency>
-        <!-- TERMINA PDFBOX-LIB --> 
+        <!-- PDFBOX-LIB END --> 
 
-        <!-- COMEÇA TESTE -->
+        <!-- TESTING BEGIN -->
         <dependency>
             <groupId>org.codehaus.mojo</groupId>
             <artifactId>animal-sniffer-annotations</artifactId>
@@ -540,7 +540,7 @@
             <artifactId>selenium-support</artifactId>
             <version>3.141.59</version>
         </dependency>
-        <!-- TERMINA TESTE -->
+        <!-- TESTING END -->
     </dependencies>
 
 </project>
