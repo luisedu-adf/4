@@ -7,3 +7,4 @@ to compile futurepages4:
 /hibernate-4.1.7.Final/required/*.jar
 /okhttp/*.jar
 /pdfbox-lib/*.jar
+/test/*.jar
