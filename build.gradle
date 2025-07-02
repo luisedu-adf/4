@@ -1,5 +1,5 @@
 plugins {
-    id 'java-library'
+    id 'java'
 }
 
 group = 'org.futurepages'
@@ -23,10 +23,20 @@ sourceSets {
 }
 
 dependencies {
-    api fileTree(dir: "lib", include: ['**/*.jar'],
-            exclude: ['hibernate/hibernate-validator-5.1.3/optional/*.jar',
-                      'hibernate-4.1.7.Final/hibernate-validator-5.1.3/hibernate-validator-5.1.3.Final.jar']
+    implementation fileTree(
+            dir: "lib",
+            include: [
+                    '*.jar',
+                    'jai-1_1_3/*.jar',
+                    'jee/*.jar',
+                    'jasper_reports/*.jar',
+                    'jersey/*.jar',
+                    'hibernate-4.1.7.Final/required/*.jar',
+                    'okhttp/*.jar',
+                    'pdfbox-lib/*.jar',
+                    'test/*.jar',
+                    'jpegcodec/*.jar'
+            ]
     )
-    api files("$rootDir/glib/jpegcodec-full.jar")
 }
 
